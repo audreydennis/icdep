@@ -1,1 +1,3 @@
 # How can we ensure that each card is received once and only once?
+
+Each index card has a fraction in the upper right corner indicating both the order of the cards written as the numerator of the fraction and the total message card length as the denominator. Alice only writes and sends each card once. This ensures that Bob receives each card once and can determine the correct order of the message. Bob can also determine if any duplicates exist as a result of any mistakes or any node adding an duplicate. Bob can also determine is he is missing any part of the message and request a specific card. 
